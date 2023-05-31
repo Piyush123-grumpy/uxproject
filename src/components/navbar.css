@@ -1,0 +1,39 @@
+.navbarContainer{
+
+    background-color: black;
+    color: white;
+}
+
+
+nav{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+
+nav ul li div{
+    margin: 10px;
+}
+
+
+.searchBar{
+    width: 700px;
+}
+
+.searchBar input{
+    padding-left: 15px;
+    height: 25px;
+    width: 700px;
+}
+
+
+.navBarItems{
+    display: flex;
+    align-items: center;
+    margin: 0 15px 0 15px;
+}
