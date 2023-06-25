@@ -2,16 +2,19 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
+import Avenger from '../assets/Avenger.jpg';
+import GraveEncounter from '../assets/GraveEncounter.jpg'
+import Spider from '../assets/Spider.jpg'
 
 function CarouselSlider(props) {
     return (
         <>
             <Container>
-                <Carousel>
-                    <Carousel.Item>
-                        <img
+                <Carousel style={{width:900}}>
+                    <Carousel.Item > 
+                        <img 
                             className="d-block w-100"
-                            src="holder.js/800x400?text=First slide&bg=373940"
+                            src={GraveEncounter}
                             alt="First slide"
                         />
                         <Carousel.Caption>
@@ -19,10 +22,11 @@ function CarouselSlider(props) {
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item >
                         <img
+                      
                             className="d-block w-100"
-                            src="holder.js/800x400?text=Second slide&bg=282c34"
+                            src={Avenger}
                             alt="Second slide"
                         />
 
@@ -31,18 +35,15 @@ function CarouselSlider(props) {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item >
                         <img
+                       
                             className="d-block w-100"
-                            src="holder.js/800x400?text=Third slide&bg=20232a"
+                            src={Spider}
                             alt="Third slide"
                         />
 
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

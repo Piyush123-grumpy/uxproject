@@ -8,11 +8,12 @@
 nav{
     margin: auto;
     width: 80%;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav ul{
     list-style: none;
+    margin-bottom: 0px;
 }
 
 
@@ -27,7 +28,7 @@ nav ul li div{
 
 .searchBar input{
     padding-left: 15px;
-    height: 25px;
+    height: 30px;
     width: 700px;
 }
 
