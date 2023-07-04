@@ -1,0 +1,14 @@
+.movieDetailCard{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.movieDetail{
+    width: 170px;
+    text-overflow: ellipsis;
+}
+
+.img img{
+    height: 75px;
+}

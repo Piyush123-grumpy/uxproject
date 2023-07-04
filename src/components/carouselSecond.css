@@ -1,0 +1,23 @@
+.upNext{
+    padding: 10px 10px 0px 30px;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.secondCarousel{
+    background: black;
+    width: calc(100% - 800px);
+}
+
+.movieDetailContainer{
+    padding: 10px;
+}
+
+.browseTrailers{
+    margin-top: 19px;
+    font-size: 16px!important;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
